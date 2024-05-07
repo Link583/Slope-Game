@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spinning Image</title>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  #spinner {
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .text {
+    margin-bottom: 200px;
+    font-size: 56px;
+  }
+
+  input[type="text"] {
+    width: 3000px;
+    padding: 10px;
+    font-size: 100px;
+  }
+</style>
+</head>
+<body style="background-image: url('your-background.gif'); background-size: cover;">
+
+<div class="container">
+  <p class="text">Stop playing games during Sex Ed</p>
+  <img id="spinner" src="https://lh3.googleusercontent.com/a-/ALV-UjXWWrppEy28xLw6u8kQ1CF93gkm5ylD6UxBwh0CjFO5mnBGLhcik8MLTgANH32O-gvix56SR7aNlhI6rBRXk78hx6mu7HIACO8TDRN-pwIx56xJ4usQ_iL5zTtDo57My_rw6zET24hRI3bBj7Iz2XMLuxDJ7RcrBoKeb2T2ycmJ41yyYYOar2crKGtyHaemvnD__2M7163VE6sjnJy0MgLehyATQ830PHgM-TNqV-bni0zOTpbs-8JwVMp2Y7LiN9T2uMpnA90mokI3fYCHpbmhNo5HvgfDKBjXtQQLVLr5IfESEdYoBxOV55l82OpzL2scaIEj_ipdJvmBDo-hbDPzpwF0h9bOM7zHVE2pTK_1kCfLXdKA-6jZBiq4ySz1OpsgBoqDocF2xyz0wSVc9MFyNJdZUcUJMy16AwQOQpu86f6znT1mCpEML3sLeN5UHotwN-mID7BEwUHMCiqPMgkpoEyQjfbBmh2Ye5PQw9p51HB2cWW_J4MzBAbJ09YXfhX-5MENH4WcdHmONZBFQpZ8IwcabRqIvNY8acnJbk4klawCEXqGVJi7fG5XL5KP5rw0O9LX-h_1i0Cs3KcpKJXhamEC42lbkQ_SfYui7KF91c0K5N3WkweWbP3ey4nh0k-938JMEaZ0kczKz6sMz5FIuIG60JOXp4YUtVIbgOuf8f0jt5Xe3iHngfJd5XpLNYlzRxlHQCeqmYkoUIeCUVs4jxgghC7PgZqCDHjmPDpFrsFvLoarWPPQQabgtpgHKMkU1vZNyie_gsP4EO1ZVBPCrbH4EuiRQR6h1s0nin_12o7gnfhlxDLvpdp0wSFdxJYVbP9Mg9JJE8ovfswA1S9QeVLFp8y7oqTjUGBDl4aNU7i_jg7pt1x2jUJaj8LY3W7DTsyhMEQqsiQ0v_LVSVVJfU11djNY9x5fHNJ3rWlPWSmmKvvvxeeOdBv2AGQex-wWJgCRNzJvpAA9-29v6q5SVUyn=s500-c" alt="Your Image" width="300">
+</div>
+
+</body>
+
+</body>
+</html>
