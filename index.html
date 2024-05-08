@@ -36,12 +36,12 @@
     font-size: 70px;
     font-weight: bold;
     color: red;
-    animation: flash 2s infinite alternate; /* Increase the duration to slow down the flashing effect */
+    animation: flash 2s infinite alternate;
 }
 
 @keyframes flash {
     0% { opacity: 1; }
-    25% { opacity: 0; } /* Adjust the keyframe percentages to slow down the flashing */
+    25% { opacity: 0; } 
     75% { opacity: 0; }
     100% { opacity: 1; }
 }
@@ -53,7 +53,6 @@
     font-size: 100px;
   }
 
-  /* Style the video to ensure it covers the entire background */
   video {
     position: fixed;
     top: 50%;
@@ -62,7 +61,7 @@
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -100; /* Ensure the video is behind all other elements */
+    z-index: -100; 
     transform: translateX(-50%) translateY(-50%);
   }
 </style>
@@ -75,7 +74,7 @@
 </video>
 
   <audio controls loop>
-  <source src="your-audio-file.mp3" type="audio/mp3">
+  <source src="alarm.mp3" type="audio/mp3">
   Your browser does not support the audio element.
 </audio>
 
