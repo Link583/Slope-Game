@@ -33,15 +33,16 @@
 
 .text {
     margin-bottom: 200px;
-   font-size: 56px;
-  font-weight: bold;
-   color: red;
-    animation: flash 1s infinite alternate; /* Add this line to create the flashing effect */
+    font-size: 56px;
+    font-weight: bold;
+    color: red;
+    animation: flash 2s infinite alternate; /* Increase the duration to slow down the flashing effect */
 }
 
 @keyframes flash {
     0% { opacity: 1; }
-    50% { opacity: 0; }
+    25% { opacity: 0; } /* Adjust the keyframe percentages to slow down the flashing */
+    75% { opacity: 0; }
     100% { opacity: 1; }
 }
 
